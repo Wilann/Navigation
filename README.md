@@ -70,8 +70,8 @@ The task is episodic, and in order to solve the environment, your agent must get
 ### Files
 
 Navigation.ipynb: Where Deep Q-Learning is used to train the agent  
-dqn_agent.py: Agnet  
-model.py: Deep Learning Model  
+dqn_agent.py: The Agent  
+model.py: The Deep Learning Model  
 report.pdf: A description of the learning algorithm and the implementation 
 
 ---
