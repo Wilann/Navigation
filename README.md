@@ -42,7 +42,7 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Create (and activate) a new environment with Python 3.6.
+2. Create (and activate) a new environment with Python 3.6
 > Linux or Mac:  
 > conda create --name drlnd python=3.6  
 > source activate drlnd  
@@ -63,13 +63,18 @@ The task is episodic, and in order to solve the environment, your agent must get
 5. Create an IPython kernel for the drlnd environment 
 > python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
-6. Before running code in a notebook, change the kernel to match the drlnd environment by using the drop-down Kernel menu.
+6. Change the kernel in the Notebook to match the drlnd environment by using the drop-down Kernel menu 
 
 ![Kernel][image2]
 
 ### Files
 
------
+Navigation.ipynb: Where Deep Q-Learning is used to train the agent  
+dqn_agent.py: Agnet  
+model.py: Deep Learning Model  
+report.pdf: A description of the learning algorithm and the implementation 
+
+---
 
 ### (Optional) Challenge: Learning from Pixels
 
