@@ -42,26 +42,30 @@ The task is episodic, and in order to solve the environment, your agent must get
 
     (_For AWS_) If you'd like to train the agent on AWS (and have not [enabled a virtual screen](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-on-Amazon-Web-Service.md)), then please use [this link](https://s3-us-west-1.amazonaws.com/udacity-drlnd/P1/Banana/Banana_Linux_NoVis.zip) to obtain the environment.
 
-2. Create (and activate) a new environment with Python 3.6
-> Linux or Mac:  
-> conda create --name drlnd python=3.6  
-> source activate drlnd  
+2. Create (and activate) a new environment with Python 3.6  
 
-> Windows:  
-> conda create --name drlnd python=3.6  
-> activate drlnd
+Linux or Mac:  
+conda create --name drlnd python=3.6  
+source activate drlnd  
+
+Windows:  
+conda create --name drlnd python=3.6  
+activate drlnd
 
 3. Install OpenAI gym, Unity mlagents, Unity unityagents
-> pip install gym  
-> pip install mlagents  
-> pip install unityagents
 
-4. Install several dependencies 
-> cd python  
-> pip install .
+pip install gym  
+pip install mlagents  
+pip install unityagents
+
+4. Install dependencies 
+
+cd python  
+pip install .
 
 5. Create an IPython kernel for the drlnd environment 
-> python -m ipykernel install --user --name drlnd --display-name "drlnd"
+
+python -m ipykernel install --user --name drlnd --display-name "drlnd"
 
 6. Change the kernel in the Notebook to match the drlnd environment by using the drop-down Kernel menu 
 
